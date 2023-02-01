@@ -25,8 +25,8 @@ spec:
       ref:
         branch: main
   serviceClaims:
-    - name: postgres1
+    - name: postgres-db
       ref:
         apiVersion: services.apps.tanzu.vmware.com/v1alpha1
         kind: ResourceClaim
-        name: jrs1db-claim
+        name: postgres1-claim
