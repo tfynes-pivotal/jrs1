@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jrs1
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=jrs1"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+  providesApis:
+    - jrs1
